@@ -1,0 +1,75 @@
+# --- Python & Virtual Environments ---
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment folders
+# Common names like 'venv', '.venv', 'env'
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+eggs/
+sdist/
+wheels/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Project-Specific ---
+# FastAPI / Uvicorn runtime files
+.uvicorn.pid
+
+# --- SQLite databases ---
+# Ignore all database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# --- direnv ---
+# Ignore local environment variables and state
+# These files often contain sensitive secrets!
+.envrc
+.envrc.local
+.direnv/
+
+# Also ignore standard .env files
+.env
+.env.*
+
+# --- Linting & Tooling ---
+# Flake8
+.flake8
+.flake8.log
+
+# Other common Python tooling caches
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
+
+# --- OS / Editor ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
